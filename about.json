@@ -1,9 +1,20 @@
 {
-  "name": "Code Self Study Dark",
-  "about_url": null,
-  "license_url": null,
-  "assets": {
-  },
-  "color_schemes": {
-  }
+    "name": "Code Self Study Dark",
+    "about_url": "https://github.com/j127/codeselfstudy_dark",
+    "license_url": "https://github.com/j127/codeselfstudy_dark/blob/main/LICENSE",
+    "assets": {},
+    "color_schemes": {
+        "Code Self Study Dark": {
+            "primary": "#83a1c1",
+            "secondary": "#242424",
+            "tertiary": "#ab93be",
+            "quaternary": "#ab93be",
+            "header_background": "#242424",
+            "header_primary": "#b6be55",
+            "highlight": "#b6be55",
+            "danger": "#cc6666",
+            "success": "#b5bd68",
+            "love": "#b294bb"
+        }
+    }
 }
