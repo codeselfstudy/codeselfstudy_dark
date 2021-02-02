@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <style>
+            .swatch p {
+                filter: invert(100%);
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="outputArea" style="display: flex"></div>
+        <script>
+            const colors = [
+                "1d1f21",
+                "282a2e",
+                "373b41",
+                "969896",
+                "b4b7b4",
+                "c5c8c6",
+                "e0e0e0",
+                "ffffff",
+                "cc6666",
+                "de935f",
+                "f0c674",
+                "b5bd68",
+                "8abeb7",
+                "81a2be",
+                "b294bb",
+                "a3685a",
+            ];
+
+            function createSwatch(hexColor) {
+                const s = `<div class="swatch" style="background-color: #${hexColor}; color: #${hexColor}; width: 200px; height: 200px"><p>#${hexColor}</p></div>`;
+                console.log("s", s);
+                return s;
+            }
+
+            const swatchesHTML = colors
+                .map((color) => createSwatch(color))
+                .join("\n");
+
+            document.getElementById("outputArea").innerHTML = swatchesHTML;
+        </script>
+    </body>
+</html>
