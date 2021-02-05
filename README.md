@@ -1,6 +1,8 @@
 # README
 
-Discourse core SCSS variables that are available:
+Code Self Study Dark Theme. You can enable this theme in your forum settings.
+
+Discourse color scheme SCSS variables that are available:
 
 ```scss
 $primary
