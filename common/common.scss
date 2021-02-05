@@ -2,36 +2,45 @@
 img.avatar {
     border-radius: 2px;
     box-shadow: 0px 0px 1px 0px rgba(170, 170, 170, 1);
-    background-color: #eee;
+    background-color: #1d1f21;
+}
+.card-avatar-placeholder {
+    border-radius: 2px;
+    background-color: #1d1f21;
 }
 
 .title {
     font-weight: bold;
 }
 
-// a.raw-topic-link {
-//     color: $tertiary;
-// }
 .topic-list-item.visited a.title:not(.badge-notification),
 .latest-topic-list-item.visited a.title:not(.badge-notification),
 .category-topic-link.visited a.title:not(.badge-notification),
 #topic-title h1 a {
-    // color: var(--primary-medium);
     color: $tertiary;
 }
 
-.topic-category .badge-wrapper a {
-    color: $quaternary !important;
-}
+// .topic-list-item.visited span.badge-category,
+// .latest-topic-list-item.visited span.badge-category,
+// .category-topic-link.visited span.badge-category {
+//     color: darken($quaternary, 15%);
+// }
 
+// add underlines to the links
 .cooked a {
     border-bottom: 1px solid darken($tertiary, 30%);
 
     &:hover {
-        border-bottom: 3px solid $highlight;
+        border-bottom: 2px solid $highlight;
     }
 }
 
 .views {
     display: none;
+}
+
+// make the box shadow darker in order to distinguish its edges from the background
+.user-card,
+.group-card {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.55);
 }
