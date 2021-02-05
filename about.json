@@ -5,16 +5,16 @@
     "assets": {},
     "color_schemes": {
         "Code Self Study Dark": {
-            "primary": "#83a1c1",
-            "secondary": "#242424",
-            "tertiary": "#ab93be",
-            "quaternary": "#ab93be",
-            "header_background": "#242424",
-            "header_primary": "#b6be55",
-            "highlight": "#b6be55",
-            "danger": "#cc6666",
-            "success": "#b5bd68",
-            "love": "#b294bb"
+            "primary": "ffffff",
+            "secondary": "282a2e",
+            "tertiary": "81a2be",
+            "quaternary": "ab93be",
+            "header_background": "242424",
+            "header_primary": "ffffff",
+            "highlight": "f0c674",
+            "danger": "cc6666",
+            "success": "b5bd68",
+            "love": "b294bb"
         }
     }
 }

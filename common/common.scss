@@ -1,0 +1,37 @@
+// make avatars square
+img.avatar {
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px 0px rgba(170, 170, 170, 1);
+    background-color: #eee;
+}
+
+.title {
+    font-weight: bold;
+}
+
+// a.raw-topic-link {
+//     color: $tertiary;
+// }
+.topic-list-item.visited a.title:not(.badge-notification),
+.latest-topic-list-item.visited a.title:not(.badge-notification),
+.category-topic-link.visited a.title:not(.badge-notification),
+#topic-title h1 a {
+    // color: var(--primary-medium);
+    color: $tertiary;
+}
+
+.topic-category .badge-wrapper a {
+    color: $quaternary !important;
+}
+
+.cooked a {
+    border-bottom: 1px solid darken($tertiary, 30%);
+
+    &:hover {
+        border-bottom: 3px solid $highlight;
+    }
+}
+
+.views {
+    display: none;
+}
