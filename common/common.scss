@@ -35,6 +35,23 @@ img.avatar {
     }
 }
 
+.post-links-container {
+    ul li a[href] {
+        color: $tertiary;
+    }
+    ul li a[href]:hover {
+        text-decoration: underline;
+        color: lighten($tertiary, 15%);
+    }
+}
+
+// .link-bottom-line {
+//     a.bullet:hover,
+//     a.badge-wrapper:hover {
+//         color: $highlight !important;
+//     }
+// }
+
 .views {
     display: none;
 }
