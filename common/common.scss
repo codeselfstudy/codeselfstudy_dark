@@ -61,3 +61,9 @@ img.avatar {
 .group-card {
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.55);
 }
+
+// improve the design of the nav pills on hover
+.nav-pills > li > a:hover {
+    color: $secondary;
+    background-color: $quaternary;
+}
